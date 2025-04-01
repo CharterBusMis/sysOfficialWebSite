@@ -1,25 +1,129 @@
-<!-- index.html -->
-     <!DOCTYPE html>
-     <html lang="zh-Hant">
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>簡單Github網站</title>
-         <!-- 載入 CSS 樣式 -->
-         <link rel="stylesheet" href="styles.css">
-     </head>
-     <body>
-         <!-- 主內容區域 -->
-         <header>
-             <h1>歡迎光臨</h1>
-         </header>
-         <main>
-             <p>這是一個示範網站，使用 Github Pages 部署。</p>
-         </main>
-         <footer>
-             <p>聯絡資訊：example@example.com</p>
-         </footer>
-         <!-- 載入 JavaScript 程式碼 -->
-         <script src="script.js"></script>
-     </body>
-     </html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>協弘遊覽汽車有限公司</title>
+  <style>
+    :root {
+      --primary-color: #0055aa;
+      --accent-color: #ffaa00;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 240px;
+      object-fit: cover;
+      display: block;
+    }
+
+    section {
+      padding: 1rem;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-top: 1.5rem;
+    }
+
+    .info-block {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-block p {
+      margin: 0.4rem 0;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>協弘遊覽汽車有限公司</h1>
+  </header>
+
+  <img src="e4886cb9-600c-4f6b-a1dd-64f52f5b0959.png" alt="協弘遊覽車" class="hero-image">
+
+  <section>
+    <div class="info-block">
+      <h2>公司概覽</h2>
+      <p>協弘遊覽汽車有限公司位於台中市南屯區，專辦國內旅遊、住宿、保險及包車服務，秉持安全、服務、價格三原則。</p>
+    </div>
+
+    <div class="info-block">
+      <h2>聯絡資訊</h2>
+      <p><strong>電話：</strong> 04-23834561</p>
+      <p><strong>傳真：</strong> 04-23864023</p>
+      <p><strong>地址：</strong> 台中市南屯區建功路109-1號</p>
+      <p><strong>電子郵件：</strong> <a href="mailto:chnhbbus@yahoo.com.tw">chnhbbus@yahoo.com.tw</a></p>
+    </div>
+
+    <div class="info-block">
+      <h2>公司特色</h2>
+      <ul>
+        <li>專業租包車與行程規劃服務</li>
+        <li>企業流程SOP與資訊分享文化</li>
+        <li>高科技視聽設備與舒適剎車系統</li>
+      </ul>
+    </div>
+
+    <div class="info-block">
+      <h2>服務項目</h2>
+      <ul>
+        <li>遊覽車出租</li>
+        <li>包車旅遊</li>
+        <li>機場接送</li>
+        <li>商務租車</li>
+        <li>結婚禮車</li>
+      </ul>
+    </div>
+
+    <div class="info-block">
+      <h2>相關榮譽</h2>
+      <p>多次成功中標中小學學生交通車採購案，並獲得台中區監理所評鑑「優」等成績。</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 協弘遊覽汽車有限公司. 保留所有權利。
+  </footer>
+</body>
+
+</html>
